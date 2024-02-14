@@ -97,3 +97,16 @@ body {
         border-color: rgb(247, 165, 57);
     }
 }
+
+#cloudHeart {
+    animation: cloudHeart 6s infinite;
+}
+
+@keyframes cloudHeart {
+    0% {box-shadow: 50px 50px 100px rgb(255, 230, 0)}
+    25% {box-shadow: -50px -50px 700px rgb(255, 230, 0)}
+    50% {box-shadow: 50px -50px 100px rgb(255, 30, 255)}
+    75% {box-shadow: -50px 50px 100px rgb(255, 30, 255)}
+    100% {box-shadow: 50px 50px 100px rgb(255, 230, 0)}
+
+}

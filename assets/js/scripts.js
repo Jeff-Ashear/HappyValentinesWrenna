@@ -1,4 +1,4 @@
-let counter = 0
+let counter = 10
 
 let introPicPath = {
     stop: [`<div id="intro">
@@ -44,7 +44,10 @@ let buttonPath = {
 }
 
 $('#startBtn').click(function () {
-    console.log(counter)
+    if (counter === 11) {
+        $('.card-img-top').attr('id', 'cloudHeart')
+    }
+
     if (counter > 11) {
         location.reload(true)
     }
