@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/favicon.jpg">
+
+    <title>Happy Valentine's Day Wrenna!</title>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+<body>
+    <!-- audio -->
+    <div class="audioDiv">
+        <audio src="./assets/audio/verse1.m4a"></audio>
+    </div>
+
+    <!-- header -->
+    <div class="px-4 py-5 my-5 text-center shadow-lg p-3 mb-5 header">
+        <div id="intro">
+            <svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" fill="currentColor" class="bi bi-envelope-heart" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l3.235 1.94a2.8 2.8 0 0 0-.233 1.027L1 5.384v5.721l3.453-2.124q.219.416.55.835l-3.97 2.443A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741l-3.968-2.442q.33-.421.55-.836L15 11.105V5.383l-3.002 1.801a2.8 2.8 0 0 0-.233-1.026L15 4.217V4a1 1 0 0 0-1-1zm6 2.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+              </svg>
+            <h1 class="display-5 fw-bold text-body-emphasis">Happy Valentine's Day Wrenna!</h1>
+            <div class="col-lg-6 mx-auto">
+              <h3>Daddy loves you SOsoSOsoSOsoSOsoSOsoSOsoSOsoSOsoSO much!</h3>
+              <h4>Touch the hearts below to see some special messages and pictures to wish you a happy valentines day!</h4>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- card -->
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="card col-6">
+            <img class="card-img-top" src="/assets/images/gift.jpg" alt="Card image cap">
+            <div class="card-body">
+              <p class="card-text" id="line1"></p>
+              <p class="card-text" id="line2"></p>
+              <button type="button" class="btn btn-primary" id="startBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-envelope-paper-heart-fill" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="m3 7.5 3.5 2L8 8.75l1.5.75 3.5-2v-6A1.5 1.5 0 0 0 11.5 0h-7A1.5 1.5 0 0 0 3 1.5zM2 3.133l-.941.502A2 2 0 0 0 0 5.4v.313l2 1.173zm12 3.753 2-1.173V5.4a2 2 0 0 0-1.059-1.765L14 3.133zm-3.693 3.324L16 6.873v6.5zm5.634 4.274L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516M5.693 10.21 0 13.372v-6.5zM8 1.982C9.664.309 13.825 3.236 8 7 2.175 3.236 6.336.31 8 1.982"/>
+                  </svg>
+              </button>
+            </div>
+        </div>
+        <div class="col-3"></div>
+    </div>
+       
+</body>
+<script src="./assets/js/scripts.js"></script>
+</html>

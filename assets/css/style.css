@@ -1,0 +1,94 @@
+body {
+    background-image: url(../images/Cute-Heart-Background.jpg);
+    text-align: center;
+}
+
+.header {
+    background-color: rgb(234, 5, 211);
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border-top: 5px solid rgb(0, 162, 255); */
+    box-shadow: 20px, 20px, 20px;
+    text-align: center;
+    padding: 5vh;
+    margin-bottom: 5px;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-img-top {
+    margin: 3%, 3%, 3%;
+    margin-top: 3%;
+    border: black solid 3px;
+    border-radius: 3px;
+    width: 100%;
+}
+
+.btn {
+    animation: colorShift 1s infinite;
+
+    border: solid 7px;
+    animation-name: borderShift;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes borderShift {
+    0% {border-color: rgba(150, 60, 235, 0.6);}
+    6% {border-color: rgba(37, 139, 235, 0.6);}
+    12% {border-color: rgba(27, 238, 203, 0.6);}
+    18% {border-color: rgba(236, 240, 27, 0.6);}
+    25% {border-color: rgba(235, 162, 45, 0.6);}
+    31% {border-color: rgba(235, 60, 60, 0.6);}
+    37% {border-color: rgb(255, 255, 255);}
+    44% {border-color: rgb(248, 232, 9);}
+    50% {border-color: rgba(255, 0, 0, 0.6);}
+    56% {border-color: rgba(150, 60, 235, 0.6);}
+    62% {border-color: rgba(37, 139, 235, 0.6);}
+    68% {border-color: rgba(27, 238, 203, 0.6);}
+    74% {border-color: rgba(236, 240, 27, 0.6);}
+    80% {border-color: rgba(235, 162, 45, 0.6);}
+    86% {border-color: rgba(235, 60, 60, 0.6);}
+    90% {border-color: rgb(255, 255, 255);}
+    95% {border-color: rgb(248, 232, 9);}
+    100% {border-color: rgba(255, 0, 0, 0.6);}
+}
+
+@keyframes colorShift {
+    0% {
+        background-color: rgba(150, 60, 235, 0.6);
+        border-color: rgb(247, 165, 57);
+    }
+    6% {background-color: rgba(37, 139, 235, 0.6);}
+    12% {background-color: rgba(27, 238, 203, 0.6);}
+    18% {background-color: rgba(236, 240, 27, 0.6);}
+    25% {
+        background-color: rgba(235, 162, 45, 0.6);
+        border-color: rgb(255, 255, 255);
+    }
+    31% {background-color: rgba(235, 60, 60, 0.6);}
+    37% {background-color: rgb(255, 255, 255);}
+    44% {background-color: rgb(248, 232, 9);}
+    50% {
+        background-color: rgba(255, 0, 0, 0.6);
+        border-color: rgb(0, 0, 0);
+    }
+    56% {background-color: rgba(150, 60, 235, 0.6);}
+    62% {background-color: rgba(37, 139, 235, 0.6);}
+    68% {background-color: rgba(27, 238, 203, 0.6);}
+    74% {
+        background-color: rgba(236, 240, 27, 0.6);
+        border-color: rgb(255, 255, 255);
+    }
+    80% {background-color: rgba(235, 162, 45, 0.6);}
+    86% {background-color: rgba(235, 60, 60, 0.6);}
+    90% {background-color: rgb(255, 255, 255);}
+    95% {background-color: rgb(248, 232, 9);}
+    100% {
+        background-color: rgba(255, 0, 0, 0.6);
+        border-color: rgb(247, 165, 57);
+    }
+}
