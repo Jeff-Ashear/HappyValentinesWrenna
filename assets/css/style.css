@@ -36,6 +36,11 @@ body {
     animation-direction: reverse;
 }
 
+.card-text {
+    font-size: xx-large;
+    
+}
+
 @keyframes borderShift {
     0% {border-color: rgba(150, 60, 235, 0.6);}
     6% {border-color: rgba(37, 139, 235, 0.6);}

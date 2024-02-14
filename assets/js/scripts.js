@@ -44,7 +44,10 @@ let buttonPath = {
 }
 
 $('#startBtn').click(function () {
-    console.log('clicked')
+    console.log(counter)
+    if (counter > 11) {
+        location.reload(true)
+    }
     $('#intro').replaceWith(introPicPath.running)
     // $('#startBtn').replaceWith(buttonPath.btnWait)
     $('#line1').text('')
@@ -73,12 +76,10 @@ function advanceText() {
 
 function advanceBtn() {
     setTimeout(function () {
-        $('#deadBtn').replaceWith(buttonPath[counter])
-        counter += 1
+        $('#deadBtn').replaceWith(buttonPath[1])
     }, 3000)    
 }
 
 function advanceCntr() {
     return counter++
-    console.Log(counter)
 }
